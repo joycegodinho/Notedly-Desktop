@@ -1,0 +1,26 @@
+{
+  "name": "notedly-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron src/index.js",
+    "final": "electron final/index.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-util": "^0.15.1"
+  },
+  "build": {
+    "appId": "io.jseverywhere.notedly",
+    "productName": "Notedly"
+  },
+  "devDependencies": {
+    "electron": "^12.0.6",
+    "electron-builder": "^22.11.1"
+  }
+}
